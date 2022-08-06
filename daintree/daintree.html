@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--- Google Font --->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=ABeeZee" rel="stylesheet" />
+        <!--- Font Awesome-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+            integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!-- Flickity -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <link rel="stylesheet" href="daintree.css" />
+        <script src="daintree.js"></script>
+        <title>Daintree Rainforest</title>
+    </head>
+    <body>
+        <div id="content-container">
+            <h1>
+                <i class="fa-solid fa-leaf fa-flip-horizontal"></i>&emsp;Daintree Rainforest&emsp;<i class="fa-solid fa-leaf"></i>
+            </h1>
+            <p>
+                We've all heard of the Amazon Rainforest and Congo Rainforest but have you heard of the Daintree
+                Rainforest?
+            </p>
+            <br />
+            <p>
+                Some of the oldest fauna in the Daintree Rainforest have been growing for more than 180 million years.
+                It is the world’s oldest tropical rainforest by an impressive 10 million years! It contains the highest
+                number of animals and plant species that are very rare. Unfortunately, it is also home to 142 rare,
+                threatened and endangered species of plants and 44 rare, threatened or endangered species of animals.
+            </p>
+            <br />
+            <h2>A cause for concern</h2>
+            <p>
+                Forest degradation and deforestation in tropical countries is a major environmental, social and economic
+                problem, and will continue to be so unless action is taken. Time is running out! We need to save the
+                remaining rainforests for future generations and preserve the beautiful biodiversity.
+            </p>
+            <p>The Daintree is also home to:</p>
+            <ul style="margin-top: -10px">
+                <li>30% of Australia’s marsupial species</li>
+                <li>20% of Australia’s reptile species</li>
+                <li>29% of Australia’s frog species</li>
+                <li>58% of Australia’s Bat & Butterfly species</li>
+            </ul>
+            <p>Here are some of the <u>endangered</u> species that can be found in Daintree Rainforest!</p>
+            <div
+                class="main-carousel"
+                data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround":true, "freeScroll": true, "pauseAutoPlayOnHover": true, "imagesLoaded": true}'
+            >
+                <div class="carousel-cell">
+                    <img src="../assets/images/spottedtailedquoll1.jpg">
+                    <img class="top fade" src="../assets/images/spottedtailedquoll2.jpg">
+                    <div class="caption"><p>Spotted-tailed Quoll</p></div>
+                    <p class="caption" id="caption-text">By now, we should all know Australia is home to many cute marsupials.. This is another one of them! It is a carnivorous marsupial, also called the tiger cat or tiger quoll!</p>
+                </div>
+                <div class="carousel-cell"></div>
+        </div>
+    </body>
 </html>
