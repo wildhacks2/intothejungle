@@ -78,10 +78,16 @@ img {
 }
 
 @keyframes fadein {
-    from {
+    0% {
         opacity: 0;
     }
-    to {
+    36.36% {
+        opacity: 0;
+    }
+    63.63% {
+        opacity: 1;
+    }
+    100% {
         opacity: 1;
     }
 }
