@@ -21,9 +21,10 @@ body {
     max-width: 80vw;
     flex-wrap: wrap;
     height: fit-content;
+    position:relative;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
@@ -33,7 +34,7 @@ h1, h2 {
 
 .carousel-cell {
     width: 500px;
-    height: 400px;
+    height: 500px;
     margin-right: 10px;
     background: #8c8;
     border-radius: 5px;
@@ -72,6 +73,7 @@ img {
 
 .top {
     z-index: 2;
+    position: absolute;
 }
 
 .fade {
@@ -91,4 +93,67 @@ img {
     100% {
         opacity: 1;
     }
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions {
+    width: fit-content;
+    height: fit-content;
+    /* display: none; */
+    display: flex;
+}
+
+#question {
+    background-color: rgba(18, 34, 13, 0.8);
+    border-radius: 15px;
+    padding: 3vh 4vw;
+    position: relative;
+    width: fit-content;
+    color: white;
+}
+
+#question-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+button {
+    border: none;
+    background-color: #8c8;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+#quiz-me {
+    width: 200px;
+    position: absolute;
+    right: 16px;
+    
+}
+
+#close-quiz {
+    right: 10px;
+    top: 10px;
+}
+
+
+#submit-button {
+    right: 10px;
+    bottom: 10px;
 }

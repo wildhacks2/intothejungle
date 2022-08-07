@@ -25,7 +25,9 @@
     <body>
         <div id="content-container">
             <h1>
-                <i class="fa-solid fa-leaf fa-flip-horizontal"></i>&emsp;Daintree Rainforest&emsp;<i class="fa-solid fa-leaf"></i>
+                <i class="fa-solid fa-leaf fa-flip-horizontal"></i>&emsp;Daintree Rainforest&emsp;<i
+                    class="fa-solid fa-leaf"
+                ></i>
             </h1>
             <p>
                 We've all heard of the Amazon Rainforest and Congo Rainforest but have you heard of the Daintree
@@ -53,21 +55,47 @@
                 <li>58% of Australia’s Bat & Butterfly species</li>
             </ul>
             <p>Here are some of the <u>endangered</u> species that can be found in Daintree Rainforest!</p>
+            <button id="quiz-me">Quiz me!</button>
             <div
                 class="main-carousel"
-                data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround":true, "freeScroll": true, "pauseAutoPlayOnHover": true, "imagesLoaded": true}'
+                data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround":true, "freeScroll": true, "imagesLoaded": true}'
             >
                 <div class="carousel-cell">
-                    <img class="top fade" src="../assets/images/spottedtailedquoll1.jpg">
-                    <img src="../assets/images/spottedtailedquoll2.jpg">
+                    <img class="top fade" src="../assets/images/spottedtailedquoll1.jpg" />
+                    <img src="../assets/images/spottedtailedquoll2.jpg" />
                     <div class="caption"><p>Spotted-tailed Quoll</p></div>
-                    <p class="caption" id="caption-text">By now, we should all know Australia is home to many cute marsupials.. This is another one of them! It is a carnivorous marsupial, also called the tiger cat or tiger quoll!</p>
+                    <p class="caption" id="caption-text">
+                        By now, we should all know Australia is home to many cute marsupials.. This is another one of
+                        them! It is a carnivorous marsupial, also called the tiger cat or tiger quoll!
+                    </p>
+                </div>
+                <div class="carousel-cell">
+                    <img class="top fade" src="../assets/images/waterfalltreefrog1.jpg" />
+                    <img src="../assets/images/waterfalltreefrog2.jpg" />
+                    <div class="caption"><p>Waterfall Tree Frog</p></div>
+                    <p class="caption" id="caption-text">
+                        This frog is large in size, reaching 5.5 cm in length. Its pattern is similar to its
+                        environment, making it easier to camouflage!
+                    </p>
+                </div>
+                <div class="carousel-cell">
+                    <img class="top fade" src="../assets/images/southerncassowary1.jpg" />
+                    <img src="../assets/images/southerncassowary2.jpg" />
+                    <div class="caption"><p>Southern Cassowary</p></div>
+                    <p class="caption" id="caption-text">
+                        Southern cassowaries are the third-tallest birds on Earth, after ostriches and emus of which
+                        they are related, and the second heaviest after ostriches. These birds can reach up to 6 feet
+                        tall and are the heaviest birds in Australia! They are flightless birds and sometimes re-ingest
+                        their own poop... <i class="fa-solid fa-poo"></i>
+                    </p>
                 </div>
                 <div class="carousel-cell"></div>
                 <div class="carousel-cell"></div>
-                <div class="carousel-cell"></div>
-                <div class="carousel-cell"></div>
             </div>
+        </div>
+        <div class="questions top center">
+            <button class="top" id="close-quiz">X</button>
+            <button type="submit" class="top" id="submit-button">Submit</button>
         </div>
     </body>
 </html>
