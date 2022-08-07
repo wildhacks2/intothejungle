@@ -1,0 +1,32 @@
+#body {
+    background-color: lightcoral;
+}
+
+#animal-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.text {
+    font-size: 25px;
+}
+
+#image {
+    height: 350px;
+    width: 350px;
+}
+
+#back-btn {
+    font-size: 30px;
+    font-family: 'Original Surfer', cursive;
+    margin: 10px;
+}

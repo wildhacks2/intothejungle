@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "question": "What is the name of this animal?",
+        "url": "../assets/images/spottedtailedquoll1.jpg",
+        "options": [
+            "Tiger quoll",
+            "Cute Marsupial",
+            "Spotted Squirrel",
+            "Spotted Quokka"
+        ],
+        "answer": "0"
+    },
+    {
+        "id": 1,
+        "question": "What is this animal's specialty?",
+        "url": "../assets/images/waterfalltreefrog1.jpg",
+        "options": [
+            "Mimicry",
+            "Execretes a stinky, musky odor",
+            "Venom/Poison",
+            "Camouflage"
+        ],
+        "answer": "3"
+    },
+    {
+        "id": 2,
+        "question": "Which statement is false about this bird?",
+        "url": "../assets/images/southerncassowary1.jpg",
+        "options": [
+            "They are the second-heaviest birds in the world.",
+            "They are the third-tallest birds in Australia.",
+            "They sometimes reingest their own poop.",
+            "They cannot fly."
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 3,
+        "question": "What do the Bennett's tree-kangoos <u>NOT</u> eat?",
+        "url": "../assets/images/bennettstreekangaroo1.jpg",
+        "options": [
+            "Fruit",
+            "Leaves",
+            "Bark",
+            "Bees"
+        ],
+        "answer": "3"
+    },
+    {
+        "id": 4,
+        "question": "What is true about the Russell River Lime?",
+        "url": "../assets/images/russellriverlime1.jpg",
+        "options": [
+            "It is a tree.",
+            "The fruit is tasty.",
+            "The fruit is used in desserts.",
+            "Its leaves and flowers are odourless."
+        ],
+        "answer": "3"
+    }
+]
