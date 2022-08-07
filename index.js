@@ -21,11 +21,11 @@ L.marker([-16.164790459877185, 145.4189750188323])
     "<div class='popup'>Daintree Rainforest <br> Learn about Endangered Animal Species and Animal Fun Facts<br><a href='./daintree/daintree.html'>Learn More</a></div>"
   );
 
-// add marker Amazon Rainforest
+// add marker Congo Rainforest
 L.marker([-1.801150808947209, 16.97109905499256])
   .addTo(jungles)
   .bindPopup(
-    "<div class='popup'>Congo Rainforest <br> Importance of Rainforest conservation<br><a href='./jungle3/main/jungle3.html'>Learn More</a></div>"
+    "<div class='popup'>Congo Rainforest <br> Importance of Rainforest conservation<br><a href='./whyConservation/whyConservation.html'>Learn More</a></div>"
   );
 
 var map = L.map("map", {
