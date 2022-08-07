@@ -19,72 +19,12 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div id="map"></div>
+    <div id="title" class="header">
+        <h1>World Jungles</h1>
+        <h2>A map of the world's jungles</h2>
+    </div>
+    <div id="map" class="center"></div>
 
-    <script>
-      // set map position
-      var map = L.map("map").setView([0, 30], 2);
-
-      // basic tile layer
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      }).addTo(map);
-
-      // add marker Amazon Rainforest
-      L.marker([-3.4647054431875395, -62.21605220740857])
-        .addTo(map)
-        .bindPopup(
-          "Amazon Rainforest <br> Impact of Human Activity on Rainforests"
-        )
-
-      // add marker Daintree Rainforest
-      L.marker([-16.164790459877185, 145.4189750188323])
-        .addTo(map)
-        .bindPopup(
-          "Daintree Rainforest <br> Learn about Endangered Animal Species and Animal Fun Facts"
-        )
-
-      // add marker Amazon Rainforest
-      L.marker([-1.801150808947209, 16.97109905499256])
-        .addTo(map)
-        .bindPopup(
-          "Congo Rainforest <br> Importance of Rainforest conservation"
-        )
-
-      //   var circle = L.circle([51.508, -0.11], {
-      //     color: "red",
-      //     fillColor: "#f03",
-      //     fillOpacity: 0.5,
-      //     radius: 500,
-      //   }).addTo(map);
-
-      //   var polygon = L.polygon([
-      //     [51.509, -0.08],
-      //     [51.503, -0.06],
-      //     [51.51, -0.047],
-      //   ]).addTo(map);
-
-      //   marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-      //   circle.bindPopup("I am a circle.");
-      //   polygon.bindPopup("I am a polygon.");
-
-      //   var popup = L.popup()
-      //     .setLatLng([51.513, -0.09])
-      //     .setContent("I am a standalone popup.")
-      //     .openOn(map);
-
-        var popup = L.popup();
-
-        function onMapClick(e) {
-          popup
-            .setLatLng(e.latlng)
-            .setContent("You clicked the map at " + e.latlng.toString())
-            .openOn(map);
-        }
-
-        map.on("click", onMapClick);
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
