@@ -13,3 +13,7 @@ function thirdIssue() {
 function fourthIssue() {
     window.location.href = "../agriculture/agriculture.html";
 }
+
+function fifthIssue() {
+    window.location.href = "../oilAndGasExtraction/extraction.html";
+}
