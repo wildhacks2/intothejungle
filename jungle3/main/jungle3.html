@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="jungle3.css" />
+    <title>Jungle 3</title>
+  </head>
+
+  <body id="body">
+    <div id="header">Welcome to the Amazon Rainforest. The animals are suffering due to many human-caused issues. The various issues will be explored below.</div>
+
+    <!-- Mining, Logging, Ranching, Agriculture, Oil & Gas Extraction -->
+    <button id="first-issue" type="button" class="btn btn-primary" onclick="firstIssue()" style="background-color: lightgoldenrodyellow;">Mining</button>
+    <button id="second-issue" type="button" class="btn btn-primary" onclick="secondIssue()" style="background-color: lightgoldenrodyellow;">Logging</button>
+    <button id="third-issue" type="button" class="btn btn-primary" onclick="thirdIssue()" style="background-color: lightgoldenrodyellow;">Ranching</button>
+    <button id="fourth-issue" type="button" class="btn btn-primary" onclick="fourthIssue()" style="background-color: lightgoldenrodyellow;">Agriculture</button>
+
+    <audio 
+      src="../main/assets/sounds/jungle-background.mp3" 
+      id="music" 
+      preload="auto" 
+      autoplay="true" 
+      loop="true">
+    </audio>
+
+    <script src="jungle3.js"></script>
+  </body>
+</html>

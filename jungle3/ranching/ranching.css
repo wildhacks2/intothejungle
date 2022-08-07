@@ -1,0 +1,23 @@
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    
+    text-align: center;
+}
+
+#back-btn {
+    font-size: 80px;
+    flex-wrap: wrap;
+    margin: 10px;
+}

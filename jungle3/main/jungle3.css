@@ -1,0 +1,49 @@
+#body {
+    background-image: url('../main/assets/images/amazon.jpg');
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    
+    text-align: center;
+}
+
+#header {
+    font-size: 100px;
+    background-color: aliceblue;
+    margin: 25px;
+}
+
+#first-issue {
+    font-size: 80px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#second-issue {
+    font-size: 80px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#third-issue {
+    font-size: 80px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#fourth-issue {
+    font-size: 80px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
