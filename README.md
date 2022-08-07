@@ -8,6 +8,7 @@
     - https://www.rainforestrescue.org.au/conservation-value-of-the-daintree/
     - https://wetlandinfo.des.qld.gov.au/wetlands/facts-maps/wildlife/?AreaID=national-park-daintree&Kingdom=animals&SpeciesFilter=RareOrThreatened
 - [Flickity's carousel](https://flickity.metafizzy.co/)
+- Wikipedia for fun facts
 
 # Credits
 - [forest image](https://pixabay.com/photos/avenue-trees-tree-lined-path-trail-2215317/)
