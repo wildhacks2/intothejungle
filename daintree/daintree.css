@@ -21,7 +21,7 @@ body {
     max-width: 80vw;
     flex-wrap: wrap;
     height: fit-content;
-    position:relative;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5 {
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5 {
     background: #8c8;
     border-radius: 5px;
     counter-increment: gallery-cell;
-    display : relative;
+    display: relative;
 }
 
 /* cell number */
@@ -58,7 +58,7 @@ img {
     position: absolute;
 }
 
-.caption { 
+.caption {
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 4;
     position: absolute;
@@ -110,8 +110,7 @@ img {
 .questions {
     width: fit-content;
     height: fit-content;
-    /* display: none; */
-    display: flex;
+    display: none;
 }
 
 #question {
@@ -138,13 +137,14 @@ button {
     padding: 10px;
     border-radius: 50px;
     font-size: 15px;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 800;
 }
 
 #quiz-me {
     width: 200px;
     position: absolute;
     right: 16px;
-    
 }
 
 #close-quiz {
@@ -152,8 +152,45 @@ button {
     top: 10px;
 }
 
-
 #submit-button {
     right: 10px;
     bottom: 10px;
+}
+
+@media screen and (max-width: 550px) {
+    .carousel-cell {
+        width: 300px;
+        height: 300px;
+        margin-right: 10px;
+        background: #8c8;
+        border-radius: 5px;
+        counter-increment: gallery-cell;
+        display: relative;
+    }
+
+    #caption-text {
+        font-size: 12px
+    }
+
+    img {
+        object-fit: contain;
+    }
+
+    button {
+        border: none;
+        background-color: #8c8;
+        cursor: pointer;
+        color: black;
+        padding: 5px;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "ABeeZee", sans-serif;
+        font-weight: 800;
+        max-width: 60px;
+    }
+
+    #quiz-me {
+        right: 5px;
+        top: 5px;
+    }
 }

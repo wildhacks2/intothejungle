@@ -15,8 +15,12 @@ window.onload = function () {
         const form = document.getElementById("form");
         form.reset();
         questions.style.display = "none";
-        chosen.style.color = "white";
-        answer.style.color = "white";
+        try {
+            chosen.style.color = "white";
+            answer.style.color = "white";
+        } catch (error) { 
+            //this just means the user didn't attempt the question
+        }
     });
 
     fetch("daintree.json")
@@ -48,7 +52,7 @@ window.onload = function () {
         let formData = new FormData(form);
         for (const [key, value] of formData) {
             console.log(`${key}: ${value}\n`);
-            chosen =  document.getElementById(value);
+            chosen = document.getElementById(value);
             chosen.style.color = "red";
             answer = document.getElementById(correctOption);
             answer.style.color = "green";
