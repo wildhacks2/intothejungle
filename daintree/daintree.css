@@ -147,6 +147,13 @@ button {
     right: 16px;
 }
 
+#back {
+    width: 200px;
+    position: absolute;
+    left: 16px;
+}
+
+
 #close-quiz {
     right: 10px;
     top: 10px;
