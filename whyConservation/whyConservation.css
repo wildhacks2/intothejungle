@@ -1,7 +1,11 @@
 body {
-  font-family: "ABeeZee", sans-serif;
-}
-
+    font-family: "ABeeZee", sans-serif;
+    background: linear-gradient(#1dd432, #577fee);
+    background-size: contain;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+  
 .cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -65,8 +69,12 @@ body {
 }
 
 .flip-card-back {
-  background-color: #29b965;
+  background-color: #067a36;
   color: white;
   transform: rotateY(180deg);
   padding: 5px;
+}
+
+p {
+  font-family: "ABeeZee", sans-serif;
 }
