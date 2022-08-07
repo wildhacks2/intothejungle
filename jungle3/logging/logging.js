@@ -3,5 +3,5 @@ function back() {
 }
 
 function loggingThreat() {
-    window.location.href = "../logging/species.html";
+    window.location.href = "../species/species.html";
 }
