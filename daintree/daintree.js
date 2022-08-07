@@ -9,27 +9,21 @@ window.onload = function () {
 
     quizButton.addEventListener("click", function () {
         questions.style.display = "block";
-    });
+        let question = document.getElementById("question");
 
-    closeButton.addEventListener("click", function () {
-        const form = document.getElementById("form");
-        form.reset();
-        questions.style.display = "none";
-        try {
-            chosen.style.color = "white";
-            answer.style.color = "white";
-        } catch (error) { 
-            //this just means the user didn't attempt the question
+        if (question) {
+            questions.removeChild(question);
         }
-    });
 
-    fetch("daintree.json")
-        .then((response) => response.json())
-        .then((json) => {
-            json.forEach((element) => {
+        let random = Math.floor(Math.random() * 5);
+
+        fetch("daintree.json")
+            .then((response) => response.json())
+            .then((json) => {
+                let element = json[random];
                 let question = document.createElement("div");
+                question.id = "question";
                 question.innerHTML = `
-        <div id="question">
         <h3>${element.question}</h3>
         <img id="question-img" src="${element.url}"/>
         <br/>
@@ -40,22 +34,34 @@ window.onload = function () {
         <label id="2" for="option2"><input type="radio" id="option2" name="option" value="2" required>${element.options[2]}</label><br>
         <label id="3" for="option3"><input type="radio" id="option3" name="option" value="3" required>${element.options[3]}</label><br>
         </form>
-        </div>
         `;
                 questions.appendChild(question);
                 correctOption = element.answer;
             });
-        });
+    });
+
+    closeButton.addEventListener("click", function () {
+        const form = document.getElementById("form");
+        form.reset();
+        questions.style.display = "none";
+        try {
+            chosen.style.color = "white";
+            answer.style.color = "white";
+            answer.style.backgroundColor = "transparent";
+        } catch (error) {
+            //this just means the user didn't attempt the question
+        }
+    });
 
     submitButton.onclick = () => {
         const form = document.getElementById("form");
         let formData = new FormData(form);
         for (const [key, value] of formData) {
-            console.log(`${key}: ${value}\n`);
             chosen = document.getElementById(value);
             chosen.style.color = "red";
             answer = document.getElementById(correctOption);
             answer.style.color = "green";
+            answer.style.backgroundColor = "white"
         }
     };
 };
