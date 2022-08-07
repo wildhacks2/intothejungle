@@ -17,6 +17,49 @@
   </head>
 
   <body id="body">
+    <h1 id="header">
+      Mining is the process of obtaining coal or other minerals from a mine. The
+      following are some of the effects
+    </h1>
+
+    <h1 id="title">1. Deforestation</h1>
+    <h2 id="explain">
+      Wood from surrounding forest is cut for charocal to fuel mining processes.
+      Species lose their habitat. Endemic species unable to survive anywhere
+      else. Thus, population dwindle and will eventually become extinct.
+    </h2>
+
+    <br /><br />
+
+    <h1 id="title">2. Pollution</h1>
+    <h2 id="explain">
+      Run-off from mine will pollute surrounding water which will threaten both
+      the species living in it and species that feed on it. Heavy metals will be
+      present in run-off which is poisonous to animals. Animals consume the
+      water or animals in the water (e.g. fishes), will then die due to being
+      poisoned. May lead to extinction of species.
+    </h2>
+
+    <br /><br />
+
+    <button
+      id="back-btn"
+      type="button"
+      class="btn btn-primary"
+      onclick="miningThreat()"
+      style="background-color: white"
+    >
+      click for species facing threats
+    </button>
+
+    <br /><br />
+
+    <a
+      id="news-article"
+      href="https://wwf.panda.org/discover/knowledge_hub/where_we_work/amazon/amazon_threats/other_threats/amazon_mining/"
+      >news article</a
+    >
+
     <button
       id="back-btn"
       type="button"
@@ -24,8 +67,17 @@
       onclick="back()"
       style="background-color: lightgoldenrodyellow"
     >
-      Back
+      back to main
     </button>
+
+    <audio
+      src="../main/assets/sounds/jungle-background.mp3"
+      id="music"
+      preload="auto"
+      autoplay="true"
+      loop="true"
+    ></audio>
+
     <script src="mining.js"></script>
   </body>
 </html>
