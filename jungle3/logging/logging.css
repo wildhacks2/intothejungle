@@ -44,8 +44,15 @@
     padding: 5px;
 }
 
+#news-article {
+    font-size: 30px;
+    font-family: 'Original Surfer', cursive;
+    background-color: rgb(180, 202, 243);
+    padding: 5px;
+}
+
 #back-btn {
-    font-size: 50px;
+    font-size: 30px;
     flex-wrap: wrap;
     font-family: 'Original Surfer', cursive;
     margin: 10px;
