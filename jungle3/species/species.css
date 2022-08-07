@@ -18,6 +18,7 @@
 
 .text {
     font-size: 25px;
+    font-family: 'ABeeZee', sans-serif;
 }
 
 #image {
@@ -27,6 +28,6 @@
 
 #back-btn {
     font-size: 30px;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'ABeeZee', sans-serif;
     margin: 10px;
 }

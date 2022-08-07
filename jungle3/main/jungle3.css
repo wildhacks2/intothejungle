@@ -21,7 +21,7 @@
 #header {
     font-size: 100px;
     background-color: aliceblue;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'ABeeZee', sans-serif;
     margin: 25px;
     margin-top: 150px;
 }
@@ -29,7 +29,7 @@
 #first-issue {
     font-size: 80px;
     flex-wrap: wrap;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'ABeeZee', sans-serif;
     margin: 10px;
     margin-top: 150px;
 }
@@ -37,27 +37,27 @@
 #second-issue {
     font-size: 80px;
     flex-wrap: wrap;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'ABeeZee', sans-serif;
     margin: 10px;
 }
 
 #third-issue {
     font-size: 80px;
     flex-wrap: wrap;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'ABeeZee', sans-serif;
     margin: 10px;
 }
 
 #fourth-issue {
     font-size: 80px;
     flex-wrap: wrap;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'ABeeZee', sans-serif;
     margin: 10px;
 }
 
 #fifth-issue {
     font-size: 80px;
     flex-wrap: wrap;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'ABeeZee', sans-serif;
     margin: 10px;
 }
