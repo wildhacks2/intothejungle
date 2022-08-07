@@ -1,21 +1,25 @@
 body {
-    font-family: "ABeeZee", sans-serif;
+  font-family: "ABeeZee", sans-serif;
+  background: linear-gradient(#64e673, #7898f2);
+  background-size: contain;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #map {
@@ -24,6 +28,5 @@ body {
 }
 
 .popup {
-    text-align: center;
-
+  text-align: center;
 }
